@@ -1,0 +1,82 @@
+﻿@{
+    
+    ViewBag.HideFooter = false;
+    
+}
+
+
+<html>
+
+<head>
+
+    <title title="hello"></title>
+
+    <style>
+
+        #formId {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color:white;
+        }
+
+        #leftMove {
+         
+            margin-left:10px;
+        }
+
+        .imgCrop {
+            
+            height: 80px;
+            overflow: hidden;
+        }
+
+    </style>
+
+</head>
+
+    <body style="background-color:#E6E6E6">
+        
+        
+         
+        <div class="container">
+
+            <form role="form" id="formId" class="col-lg-3">
+
+                <div class="page-header">
+                    <img id="leftMove" class="imgCrop" src="~/Images/zitter-health-insights-logo.png" alt="zitter logo" />
+                </div>
+
+                <div class="form-group" id="leftMove">
+                    <label for="uName">User Name*</label>
+                    <input type="text" class="form-control" placeholder="User name*"/>
+                </div>
+
+                <div class="form-group" id="leftMove">
+                    <label for="pass">Password*</label>
+                    <input type="text" class="form-control" placeholder="Password*" />
+                </div>
+
+                <div class="form-group row" id="leftMove">
+
+                    
+                        <div class="checkbox col-md-6">
+                            <label><input type="checkbox" />Remember me!</label>
+                        </div>
+                   
+
+                    
+                        <button class="btn btn-primary pull-right" style="font-size:15px; margin-right:38px"> <span class="glyphicon glyphicon-log-in" style="padding-right:6px ;"></span>Login</button>
+                   
+
+                </div>     
+
+            </form>
+
+
+        </div>
+
+    </body>
+
+</html>
