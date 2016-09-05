@@ -1,0 +1,8 @@
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\EmailSenderLibrary.dll
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\EmailSenderLibrary.pdb
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+D:\Robin\Sample Projects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

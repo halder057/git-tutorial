@@ -1,0 +1,42 @@
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationDelivery.exe.config
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationDelivery.exe
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationDelivery.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\log4net.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationCommon.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationCommon.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\log4net.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\obj\Debug\ZhiNotificationDelivery.csprojResolveAssemblyReference.cache
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\obj\Debug\ZhiNotificationDelivery.exe
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\obj\Debug\ZhiNotificationDelivery.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\Templates\NotificationDetailsEmailTemplate.cshtml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Net.Http.Formatting.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\RazorEngine.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Web.Razor.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Net.Http.Formatting.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\RazorEngine.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Web.Razor.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationDelivery.exe.config
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\obj\Debug\ZhiNotificationDelivery.exe
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\obj\Debug\ZhiNotificationDelivery.pdb
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\Templates\NotificationDetailsEmailTemplate.cshtml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationDelivery.exe
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationDelivery.pdb
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.SqlServer.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\log4net.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Net.Http.Formatting.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationCommon.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\RazorEngine.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Web.Razor.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\ZhiNotificationCommon.pdb
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\EntityFramework.SqlServer.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\log4net.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Net.Http.Formatting.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\RazorEngine.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\bin\Debug\System.Web.Razor.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\obj\Debug\ZhiNotificationDelivery.csprojResolveAssemblyReference.cache

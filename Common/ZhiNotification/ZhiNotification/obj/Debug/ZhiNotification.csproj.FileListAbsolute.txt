@@ -1,0 +1,130 @@
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\obj\Debug\ZhiNotification.csprojResolveAssemblyReference.cache
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\ZhiNotification.dll.config
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\ZhiNotification.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\ZhiNotification.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Antlr3.Runtime.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.SqlServer.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Cors.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Diagnostics.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Hosting.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Security.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Web.Infrastructure.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Newtonsoft.Json.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Owin.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Net.Http.Formatting.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Cors.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Helpers.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.WebHost.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Mvc.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Optimization.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Razor.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Deployment.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Razor.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\WebGrease.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\ZhiNotificationCommon.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\ZhiNotificationCommon.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.SqlServer.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Cors.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Diagnostics.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Hosting.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Security.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Optimization.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Helpers.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Mvc.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Razor.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Deployment.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Razor.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Antlr3.Runtime.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Newtonsoft.Json.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Net.Http.Formatting.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.WebHost.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\obj\Debug\ZhiNotification.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\obj\Debug\ZhiNotification.pdb
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\Templates\NotificationDetailsEmailTemplate.cshtml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\RazorEngine.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\RazorEngine.xml
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\log4net.dll
+D:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiNotification\ZhiNotification\bin\log4net.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Templates\NotificationDetailsEmailTemplate.cshtml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\ZhiNotification.dll.config
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\ZhiNotification.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\ZhiNotification.pdb
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Antlr3.Runtime.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.SqlServer.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\log4net.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Cors.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Diagnostics.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Hosting.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Security.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Web.Infrastructure.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Newtonsoft.Json.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Owin.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Net.Http.Formatting.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Cors.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Helpers.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.WebHost.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Mvc.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Optimization.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Razor.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Deployment.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Razor.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\WebGrease.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\ZhiNotificationCommon.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\RazorEngine.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\ZhiNotificationCommon.pdb
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\log4net.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\EntityFramework.SqlServer.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.Owin.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Cors.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Diagnostics.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Hosting.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Microsoft.Owin.Security.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Net.Http.Formatting.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Optimization.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Helpers.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Mvc.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Razor.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Deployment.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.WebPages.Razor.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Antlr3.Runtime.pdb
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\Newtonsoft.Json.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\System.Web.Http.WebHost.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\bin\RazorEngine.xml
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\obj\Debug\ZhiNotification.csprojResolveAssemblyReference.cache
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\obj\Debug\ZhiNotification.dll
+D:\Robin Halder\Sample Projects\Common\ZhiNotification\ZhiNotification\obj\Debug\ZhiNotification.pdb

@@ -1,0 +1,15 @@
+2016-02-09 16:14:52,221 [10] INFO ZhiNotificationDelivery.Utilities.Logger - Notification Delivery Process Started. 
+2016-02-09 16:14:53,146 [10] INFO ZhiNotificationDelivery.Utilities.Logger - Only scheduled notifications will be processed and delivered. 
+2016-02-09 16:14:59,731 [10] ERROR ZhiNotificationDelivery.Utilities.Logger - An error occurred while trying to deliver notifications.  System.DivideByZeroException: Attempted to divide by zero.
+   at ZhiNotificationDelivery.Program.Main(String[] args) in d:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\Program.cs:line 46
+
+2016-02-09 16:22:26,948 [9] INFO ZhiNotificationDelivery.Utilities.Logger - Notification Delivery Process Started. 
+2016-02-09 16:22:27,730 [9] INFO ZhiNotificationDelivery.Utilities.Logger - Only scheduled notifications will be processed and delivered. 
+2016-02-09 16:22:30,588 [9] ERROR ZhiNotificationDelivery.Utilities.Logger - An error occurred while trying to deliver notifications.  System.DivideByZeroException: Attempted to divide by zero.
+   at ZhiNotificationDelivery.Program.Main(String[] args) in d:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\Program.cs:line 46
+
+2016-02-09 16:27:40,858 [8] INFO ZhiNotificationDelivery.Utilities.Logger - Notification Delivery Process Started. 
+2016-02-09 16:27:41,666 [8] INFO ZhiNotificationDelivery.Utilities.Logger - Only scheduled notifications will be processed and delivered. 
+2016-02-09 16:27:44,309 [8] ERROR ZhiNotificationDelivery.Utilities.Logger - An error occurred while trying to deliver notifications.  System.DivideByZeroException: Attempted to divide by zero.
+   at ZhiNotificationDelivery.Program.Main(String[] args) in d:\Robin Halder\Sample Projects\Common\ZhiNotificationDelivery\ZhiNotificationDelivery\Program.cs:line 46
+

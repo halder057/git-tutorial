@@ -1,0 +1,113 @@
+﻿@using SpiderDashboard.Models;
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<div class="row">
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>Spider History</h3></div>
+        <div class="panel-body">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <label>Analyst</label>
+
+                    <select class="select form-control input-sm"  id="analystSelector">
+                       
+                       var i = 0;
+                       <option value="-1" selected>Select Analyst</option>
+                       @foreach(var listofAnalyst in Model)
+                       { 
+                        
+                        <option value="@listofAnalyst">@listofAnalyst</option>
+                        
+                       }
+                    </select>
+
+                </div>
+
+                <div class="col-md-3">
+                    <label>Drug Name</label>
+                    <select class="select form-control input-sm" id="drugSelector">
+                        <option value="" selected></option>
+                       
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label>FileWatch ID</label>
+                    <select class="select form-control input-sm" id="fileWatchIdSelector">
+                        <option value="-1" selected></option>
+                        
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label>Documents Since</label>
+                    <select class="select form-control input-sm" id="dateSelector">
+                        <option value="7" selected>Last 7 Days</option>
+                        <option value="30">Last 1 Month</option>
+                        <option value="180">Last 6 Months</option>
+                        <option value="360">Last 1 Year</option>
+                        <option value="720">Last 2 Years</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label></label>
+                    <button class="btn btn-info btn-group-justified" id="searchButton">Search</button>
+                </div>
+
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="row margin-top-15">
+                        <div class="container">
+                            
+                            <table id="historyData-table" class="table table-striped table-bordered table-hover font-size-12">
+                                <thead>
+                                    <tr>
+                                        <th>File URL</th>
+                                        <th>Date Discovered</th>
+                                        <th>View Document</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="row margin-top-15">
+                        <div class="container">
+                            <table id="subscriptionData-table" class="table table-striped table-bordered table-hover font-size-12">
+                                <thead>
+                                    <tr>
+                                        <th>Plan</th>
+                                        <th>Doc Type</th>
+                                        <th>Drug</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    @Html.Hidden("get-drugs-filewatchids-url", Url.Action("GetDrugsAndFileWatchIds", "Home"), new { ID = "get-drugs-filewatchids-url" })
+    @Html.Hidden("get-filewatchids-url", Url.Action("GetFileWatchIds", "Home"), new { ID = "get-filewatchids-url" })
+    @Html.Hidden("get-historyandsubscriptiondata-url", Url.Action("GetFileWatchHistoryAndSubscriptionData", "Home"), new { ID = "get-historyandsubscriptiondata-url" })
+</div>
+

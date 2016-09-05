@@ -1,0 +1,6 @@
+D:\Robin\Sample Projects\jquerytest\jquerytest\bin\jquerytest.dll.config
+D:\Robin\Sample Projects\jquerytest\jquerytest\bin\jquerytest.dll
+D:\Robin\Sample Projects\jquerytest\jquerytest\bin\jquerytest.pdb
+D:\Robin\Sample Projects\jquerytest\jquerytest\obj\Debug\jquerytest.dll
+D:\Robin\Sample Projects\jquerytest\jquerytest\obj\Debug\jquerytest.pdb
+D:\Robin\Sample Projects\jquerytest\jquerytest\obj\Debug\jquerytest.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+2016-02-11 11:19:27,261 [1] INFO ZhiNotificationDelivery.Utilities.Logger - Notification Delivery Process Started. 
+2016-02-11 11:19:27,990 [1] INFO ZhiNotificationDelivery.Utilities.Logger - Only realtime notifications will be processed and delivered. 
+2016-02-11 11:19:34,034 [1] INFO ZhiNotificationDelivery.Utilities.Logger - Notification Delivery Process Successfully Completed. 
+2016-02-11 12:55:49,575 [1] INFO ZhiNotificationCommon.Utilities.CommonLogger - Notification Delivery Process Started. 
+2016-02-11 12:55:50,292 [1] INFO ZhiNotificationCommon.Utilities.CommonLogger - Only realtime notifications will be processed and delivered. 
+2016-02-11 12:55:57,136 [1] INFO ZhiNotificationCommon.Utilities.CommonLogger - Notification Delivery Process Successfully Completed. 
+2016-02-11 13:18:27,956 [1] INFO ZhiNotificationCommon.Utilities.CommonLogger - Notification Delivery Process Started. 
+2016-02-11 13:18:28,665 [1] INFO ZhiNotificationCommon.Utilities.CommonLogger - Only realtime notifications will be processed and delivered. 
+2016-02-11 13:19:03,010 [1] INFO ZhiNotificationCommon.Utilities.CommonLogger - Notification Delivery Process Successfully Completed. 

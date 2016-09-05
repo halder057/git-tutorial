@@ -1,0 +1,197 @@
+﻿body {
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+}
+
+.content {
+    padding-top: 72px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Links */
+a:hover, a:active {
+    text-decoration: none !important;
+}
+/*Material overrides*/
+.checkbox, .radio {
+    margin-bottom: 0;
+    margin-top: 0!important;
+    padding-left: 0;
+}
+
+    .checkbox input[type=checkbox]:disabled + .checkbox-material .check {
+        color: #9B9B9B;
+    }
+
+        .checkbox input[type=checkbox]:disabled + .checkbox-material .check:before {
+            color: #9B9B9B;
+        }
+
+    .checkbox input[type=checkbox]:disabled + .checkbox-material + .checkbox-label {
+        color: #9B9B9B;
+    }
+
+.radio {
+    margin-left: -8px;
+}
+
+    .radio input[type=radio]:disabled + .circle + .check + .radio-label {
+        color: #9B9B9B;
+    }
+/*Generic styles*/
+
+.table td, .table th {
+    vertical-align: middle !important;
+    font-weight: normal !important;
+}
+
+.table thead {
+    color: white;
+}
+
+.panel.theme-primary > .panel-heading {
+    background-color: #00695C;
+    color: white;
+}
+
+thead {
+    background-color: #009688;
+    color: white;
+}
+
+.checkbox-label {
+    padding-left: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.radio-label {
+    padding-left: 32px;
+    font-weight: 500;
+    color: black;
+}
+
+i.fa-sign-out, i.fa-edit, i.fa-list {
+    padding: 0 8px;
+    color: white;
+}
+
+/*----Specific styles----*/
+/*Login*/
+.login-div {
+    margin-top: 5%;
+    width: 320px;
+    height: 420px;
+    padding: 16px;
+    background-color: white;
+}
+
+.form-control-wrapper {
+    margin: 30px 0;
+}
+
+.login-error ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    .login-error ul li {
+        text-align: center;
+    }
+/*Subscription*/
+#delevary-management .panel-body .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.action-panel {
+    background-color: white;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.subcription-status-col {
+    width: 80px;
+}
+
+.indication-status-col {
+    width: 90px;
+}
+.checkbox-col{
+    width:36px;
+}
+
+#delevary-management hr {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+    #delevary-management hr + div > span {
+        font-style: italic;
+        font-weight: 400;
+    }
+/*Changes*/
+.dataTables_wrapper .dataTables_info {
+    padding: 0 0 8px 0;
+}
+
+.noty-subscription-panel-body {
+    height: 435px;
+    overflow-y: auto;
+}
+
+.indication-panel-header{
+    padding-left: 4px;
+    font-size:larger;
+}
+
+.noty-subscription-panel-body-half {
+    height: 185px;
+    overflow-y: auto;
+    padding:4px;
+}
+
+.changes-related-users > .btn {
+    margin: 0 !important;
+}
+/*PDF Template*/
+#pdf-tamplate thead, #pdf-tamplate tfoot {
+    display: table-row-group;
+}
+#stack-trace-modal{
+    word-wrap:break-word;
+}

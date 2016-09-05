@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>First Jquery Test</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    
+    <style>
+
+        body {
+            background-color:olivedrab;
+        }
+        h1{
+            color:blue;
+            font-size:50px;
+            text-align:center;
+        }
+
+        p{
+            color:yellow;
+            background-color:beige;
+        }
+
+        button{
+
+            background-color:blue;
+            color:white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("p:first").click(function () {
+
+                alert("You are in first para");
+            });
+
+            $("p").click(function () {
+
+                $(this).hide("10", function () {
+
+                    alert("This is after hiding");
+                });
+            });
+
+
+            $("#btn1").click(function () {
+
+                $("div:first").append("<div>New paragraph is added on div section</div>").css("color","red").slideUp(2000).css("color","blue").slideDown(2000);
+            });
+
+        });
+
+
+    </script>
+
+
+
+
+    <h1>First Jquery test</h1>
+
+    <div >
+        <div>
+            <p >1st paragraph inside first div</p>
+        </div>
+        <div>
+            <p >2nd paragraph inside 2nd div</p>
+        </div>
+    </div>
+
+
+    <button id="btn1">Click To Add Div</button>
+
+</body>
+</html>

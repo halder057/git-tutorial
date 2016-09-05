@@ -1,0 +1,141 @@
+﻿@model ZhiNotification.Models.SubscriptionViewModel
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-material-brown-800">
+            <div id="noty-panel-heading" class="panel-heading">
+                <div class="row">
+                    <div class="col-md-1 pull-left">
+                        <div class="checkbox checkbox-material-brown-50">
+                            <label>
+                                <input type="checkbox"
+                                       id="select-all-indication" />
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-11"><span class="indication-panel-header">Select Indications</span></div>
+                </div>
+            </div>
+            <div class="panel-body noty-subscription-panel-body-half">
+                <table class="table table-bordered table-hover" id="indication-table">
+                    <tbody>
+                        @foreach (var item in Model.IndicationSubscriptions)
+                        {
+                            var isChecked = (item.IsSubscribed ? "checked" : "");
+                            <tr>
+                                <td class="checkbox-col">
+                                    <div class="checkbox checkbox-material-brown-500 text-center">
+                                        <label>
+                                            <input type="checkbox"
+                                                   data-elementid="indication-list-checkbox"
+                                                   data-indication-id="@item.IndicationID"
+                                                   data-indication-abbr="@item.IndicationAbbreviation"
+                                                   @isChecked />
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>@item.IndicationName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="panel panel-material-brown-800">
+            <div id="noty-panel-heading" class="panel-heading">
+                <big>Select Notification Categories and Columns</big>
+            </div>
+            <div class="panel-body noty-subscription-panel-body-half">
+                <div id="categorySelectionTreeView"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div id="delevary-management">
+            <div class="panel panel-material-brown-800">
+                <div id="noty-panel-heading" class="panel-heading"><big>Select Notification Delivery Process</big></div>
+                <div class="panel-body noty-subscription-panel-body">
+                    <div class="row">
+                        @if (Model != null && Model.DeliveryMethodsSubscriptions != null && Model.DeliveryMethodsSubscriptions.Count > 0)
+                        {
+                            <div class="col-sm-3"><b>Delivery methods:</b></div>
+                            <div class="col-sm-9">
+                                @foreach (var item in Model.DeliveryMethodsSubscriptions)
+                                {
+                                    var isChecked = (item.IsChecked ? "checked" : "");
+                                    <div class="checkbox checkbox-material-brown-500 margin-bottom-8">
+                                        <label>
+                                            <input type="checkbox"
+                                                   @isChecked
+                                                   @item.Value
+                                                   data-delivery-method-checkboxes
+                                                   data-delivery-method-id="@item.ID" />
+                                            <span class="checkbox-label">@item.Value</span>
+                                        </label>
+                                    </div>
+
+                                    if (item.ID == 2)
+                                    {
+                                        <div class="pad-left-48">
+                                            <div class="row" email-dependent-view>
+                                                <hr />
+                                                <div class="row">
+                                                    <span class="pull-right color-brown-500">Frequency</span>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="container">
+                                                        @foreach (var frequencyItem in Model.DeliveryFrequencySubscriptions)
+                                                        {
+                                                            var frequencyItemIsChecked = (frequencyItem.IsChecked ? "checked" : "");
+                                                            <div class="radio radio-material-brown-500 margin-bottom-8">
+                                                                <label>
+                                                                    <input type="radio"
+                                                                           name="delivery-frequency"
+                                                                           value="@frequencyItem.ID"
+                                                                           @frequencyItemIsChecked>
+                                                                    <span class="radio-label">@frequencyItem.Value</span>
+                                                                </label>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row" email-dependent-view periodic-dependent-view>
+                                                <hr />
+                                                <div class="row">
+                                                    <span class=" pull-right  color-brown-500">Content</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8">
+                                                        @foreach (var contentItem in Model.ContentVolumeSubscriptions)
+                                                        {
+                                                            var contentItemIsChecked = (contentItem.IsChecked ? "checked" : "");
+                                                            <div class="radio radio-material-brown-500  margin-bottom-8" data-toggle="tooltip" title="Whether all pending notifications will be bundled into a single email, or each notification will be emailed separately.">
+                                                                <label>
+                                                                    <input type="radio"
+                                                                           name="content-volume"
+                                                                           value="@contentItem.ID"
+                                                                           @contentItemIsChecked>
+                                                                    <span class="radio-label">@contentItem.Value</span>
+                                                                </label>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var categoryTreeviewData = @Html.Raw(Json.Encode(Model.CategoriesWithColumns));
+</script>

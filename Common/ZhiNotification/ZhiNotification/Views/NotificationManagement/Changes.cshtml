@@ -1,0 +1,87 @@
+﻿@using ZhiNotificationCommon;
+@model ZhiNotification.Models.ChangeViewModel
+
+<div class="col-md-12">
+    <table id="changes-table" class="table table-bordered table-hover margin-top-16">
+        <thead class="well-material-brown-500">
+            <tr>
+                <th class="checkbox-col">
+                    <div class="checkbox checkbox-material-brown-50 text-center">
+                        <label>
+                            <input type="checkbox" id="select-all" />
+                        </label>
+                    </div>
+                </th>
+                <th>Notification Category</th>
+                <th>Description</th>
+                <th class="text-center">Status</th>
+                <th class="text-center">Associated Users</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Changes != null)
+            {
+                foreach (var item in Model.Changes)
+                {
+                    <tr>
+                        <td class="center checkbox-col">
+                            <div class="checkbox checkbox-material-brown-500 text-center">
+                                <label>
+                                    <input type="checkbox"
+                                           data-elementid="changes-checkbox"
+                                           data-cid="@item.ID" />
+                                </label>
+                            </div>
+                        </td>
+                        <td class="changes-noty-category">
+                            @item.NotificationCategory.Name
+                        </td>
+                        <td class="changes-description">
+                            @{
+                    var link = ZhiNotificationCommon.Services.NotificationService.GetDocumentLinkFromNotificationMessage(item.NotificationMessage);
+                    var linkRemovedMessage = ZhiNotificationCommon.Services.NotificationService.RemoveDocumentLinkFromNotificationMessage(item.NotificationMessage);
+                    var message = "";
+                    if (link.Equals(ZhiNotificationCommon.Utilities.Constants.NoDocumentAvailable))
+                    {
+                        message = linkRemovedMessage + " - " + link;
+                        @message
+                    }
+                    else
+                    {
+                        message = linkRemovedMessage + " - ";
+                        @message <a href="@link">PA Policy Document</a>
+                    }
+                            }
+
+                        </td>
+                        <td class="text-center">
+                            @item.ChangeStatus.Value
+                        </td>
+                        <td class="text-center changes-related-users">
+                            <button class="btn btn-material-brown-500 input-sm font-size-12 "
+                                    data-cat-id="@item.NotificationCategoryID"
+                                    data-change-id="@item.ID">
+                                View Users
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+</div>
+<script type="text/javascript">
+    @{
+        string selectorHtmlMvc = "<option value='' selected>ALL</option>";
+        foreach (var item in Model.NotificationCategories)
+        {
+            selectorHtmlMvc += ("<option value='" + item.Name + "'>" + item.Name + "</option>");
+        }
+    }
+    var selectorHtml = "@Html.Raw(selectorHtmlMvc)";
+    var $categorySelector = $('#notificationCategorySelector');
+    $categorySelector.html(selectorHtml);
+
+</script>
+

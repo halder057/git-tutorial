@@ -1,0 +1,61 @@
+﻿@using ZhiNotificationCommon.Utilities;
+@model List<ZhiNotificationCommon.Models.FilteredChangesByPlanObject>
+
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <p>For Plan Name '@item.PlanName'</p>
+            foreach (var changeItems in item.FilteredChanges)
+            {
+                <p><b> On '@changeItems.DateString', the following data changed</b></p>
+                var singleChange = changeItems.DetailProperties.FirstOrDefault();
+                <table style="border: 1px solid black;border-collapse: collapse;padding: 8px;">
+                    <thead>
+                        <tr>
+                            @foreach (KeyValuePair<string, string> property in singleChange)
+                            {
+                                if (property.Key.Equals(Constants.IsDocumentAvailable))
+                                {
+                                    continue;
+                                }
+                                <th style="border: 1px solid black;border-collapse: collapse;padding: 8px;">@Helpers.GetWordSeparatedString(property.Key)</th>
+                            }
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        @foreach (var detail in changeItems.DetailProperties)
+                        {
+
+                            var haslink = detail[Constants.IsDocumentAvailable].Equals(Constants.DocumentAvailable);
+                            var link = detail[Constants.PlanDetailLinkPropery];
+                            <tr>
+                                @foreach (KeyValuePair<string, string> properties in detail)
+                                {
+                                    if (properties.Key.Equals(Constants.IsDocumentAvailable))
+                                    {
+                                        continue;
+                                    }
+
+                                    if (properties.Key.Equals(Constants.PlanDetailLinkPropery) && haslink)
+                                    {
+                                        <td style="border: 1px solid black;border-collapse: collapse;padding: 8px;"><a href="@properties.Value">PA Policy Document</a></td>
+                                    }
+                                    else
+                                    {
+                                        <td style="border: 1px solid black;border-collapse: collapse;padding: 8px;">@properties.Value</td>
+                                    }
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        }
+    }
+
+

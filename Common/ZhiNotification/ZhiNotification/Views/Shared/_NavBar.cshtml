@@ -1,0 +1,27 @@
+﻿@using ZhiNotification.Utilities;
+@{
+    bool isSuperUser = User.Identity.IsAuthenticated && Roles.IsUserInRole(ZhiNotification.MembershipInfrastructure.RoleNames.SuperAdmin);
+    MenuItem? selectedItem = (MenuItem?)ViewBag.SelectedMenuItem;
+}
+<div class="navbar navbar-material-brown-800 navbar-fixed-top ">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="javascript:void(0)">Notification Management Portal</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            @if (isSuperUser)
+            {
+                <li class="@Html.MenuItemActive(MenuItem.Subscription, selectedItem)"><a href="@Url.Action("ManageSubscriptions", "NotificationManagement")">Subscription<i class="fa fa-edit"></i></a></li>
+                <li class="@Html.MenuItemActive(MenuItem.Changes, selectedItem)"><a href="@Url.Action("ManageChanges", "NotificationManagement")">Changes<i class="fa fa-list"></i></a></li>
+                <li class="@Html.MenuItemActive(MenuItem.Log, selectedItem)"><a href="@Url.Action("ViewLogs", "ViewLog")">View Log<i class="fa fa-edit"></i></a></li>
+            }
+            <li><a href="@Url.Action("Logout", "Account")">Logout<i class="fa fa-sign-out"></i></a></li>
+        </ul>
+    </div>
+</div>
+

@@ -1,0 +1,10 @@
+D:\Robin\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\obj\Debug\EmailSenderLibrary.csprojResolveAssemblyReference.cache
+D:\Robin\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\bin\Debug\EmailSenderLibrary.dll
+D:\Robin\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\bin\Debug\EmailSenderLibrary.pdb
+D:\Robin\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\obj\Debug\EmailSenderLibrary.dll
+D:\Robin\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\obj\Debug\EmailSenderLibrary.pdb
+D:\Robin Halder\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\bin\Debug\EmailSenderLibrary.dll
+D:\Robin Halder\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\bin\Debug\EmailSenderLibrary.pdb
+D:\Robin Halder\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\obj\Debug\EmailSenderLibrary.csprojResolveAssemblyReference.cache
+D:\Robin Halder\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\obj\Debug\EmailSenderLibrary.dll
+D:\Robin Halder\Sample Projects\EmailSenderLibrary\EmailSenderLibrary\obj\Debug\EmailSenderLibrary.pdb

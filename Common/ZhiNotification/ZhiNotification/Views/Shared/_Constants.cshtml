@@ -1,0 +1,19 @@
+﻿@using ZhiNotification.Utilities;
+
+@Html.Hidden("ajax-error-message", Constants.AjaxErrorMessage, new { ID = "ajax-error-message" })
+@Html.Hidden("changes-could-not-be-approved", Constants.ChangesCouldNotBeApproved, new { ID = "changes-could-not-be-approved" })
+@Html.Hidden("changes-successfully-approved", Constants.ChangesSuccessfullyApproved, new { ID = "changes-successfully-approved" })
+@Html.Hidden("changes-successfully-discarded", Constants.ChangesSuccessfullyDiscarded, new { ID = "changes-successfully-discarded" })
+@Html.Hidden("subscriptions-could-not-be-saved", Constants.SubscriptionsCouldNotBeSaved, new { ID = "subscriptions-could-not-be-saved" })
+@Html.Hidden("subscriptions-successfully-saved", Constants.SubscriptionsSuccessfullySaved, new { ID = "subscriptions-successfully-saved" })
+
+@Html.Hidden("frequency-instant-id", (int)ZhiNotificationCommon.Utilities.DeliveryFrequency.RealTime, new { ID = "frequency-instant-id" })
+@Html.Hidden("method-email-id", (int)ZhiNotificationCommon.Utilities.DeliveryMethod.Email, new { ID = "method-email-id" })
+@Html.Hidden("method-push-id", (int)ZhiNotificationCommon.Utilities.DeliveryMethod.Push, new { ID = "method-push-id" })
+@Html.Hidden("method-text-id", (int)ZhiNotificationCommon.Utilities.DeliveryMethod.Text, new { ID = "method-text-id" })
+@Html.Hidden("content-single-id", (int)ZhiNotificationCommon.Utilities.ContentVolume.Single, new { ID = "content-single-id" })
+@Html.Hidden("content-bundle-id", (int)ZhiNotificationCommon.Utilities.ContentVolume.Bundle, new { ID = "content-bundle-id" })
+<!-- Pending changes table  -->
+@Html.Hidden("category-column-index",1, new { ID = "category-column-index" })
+@Html.Hidden("status-column-index",3, new { ID = "status-column-index" })
+

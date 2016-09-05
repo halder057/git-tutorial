@@ -1,0 +1,38 @@
+﻿@model WebApplication2.Models.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    //Layout = null; // no navbar
+    ViewBag.navbarHide = true;
+    ViewBag.pageClass = "login-page";
+    ViewBag.Title = "Zitter Health Insights";
+    var token = (MvcHtmlString)@Html.AntiForgeryToken();
+    string controller = (string)ViewBag.controller;
+    string viewName = "Login";
+}
+<div class="regular-page">
+    <div class="vertical-center relative-position">
+        <div class="login-page-container">
+            <div class="page-header">
+                <div class="login-header center-block">
+                    <img src="~/Images/zitter-health-insights-logo.png" alt="zitter logo" class="center-block block" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    @using (Html.BeginForm(viewName, controller, FormMethod.Post, new { @class = "", role = "form" }))
+                    {
+                        <div class="login-form-container">
+                            @token
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.EditorFor(n => n.UserName, "Username-v")
+                            @Html.EditorFor(n => n.Password, "Password-v")
+                            @Html.HiddenFor(n => n.ReturnUrl, new { @Value = ViewBag.returnUrl })
+                            <!-- contains submit button -->
+                            @Html.EditorFor(n => n.RememberMe, "RememberMe-v")
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

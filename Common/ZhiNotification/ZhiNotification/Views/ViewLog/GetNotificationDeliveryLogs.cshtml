@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Errors";
+}
+@using ZhiNotificationCommon;
+@model List<ZhiNotification.Models.NotificationDeliveryLogViewModel>
+
+<div class="col-md-12">
+    <table id="log-table" class="table table-bordered table-hover margin-top-16">
+        <thead class="well-material-brown-500">
+            <tr>
+                <th width="20%" class="text-center">User Name</th>
+                <th width="40%" class="text-center">Notification Text</th>
+                <th width="20%" class="text-center">Delivery Frequency</th>
+                <th width="20%" class="text-center">Time Stamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="changes-noty-category">
+                               @item.UserName
+                            </td>
+                            <td class="changes-description">
+                                @item.NotificationText
+                            </td>
+                            <td class="changes-noty-category">
+                               @item.DeliveryFrequencyValue
+                            </td>
+                            <td class="changes-noty-category">
+                                @item.TimeStamp
+                            </td>                          
+                        </tr>
+                    }
+                }
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+
+</script>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Notification Gateway";
+}
+
+<div id="login" class="login-div div-center shadow-z-2">
+    <div>
+        <img class="middle" src="~/Content/Images/zitter-health-insights-logo.png" />
+    </div>
+    <hr />
+   @using (Html.BeginForm( "Login","Account")){
+      <div class="validation-summary-errors"></div>
+      @Html.ValidationSummary(true, "", new { @class = "login-error" })
+    <div class="form-group-material-brown-500">
+        <div class="form-control-wrapper">
+            <input type="text" name="Username" class="form-control empty">
+            <div class="floating-label">Username</div>
+            <span class="material-input"></span>
+        </div>
+        <div class="form-control-wrapper">
+            <input type="password" name="Password" class="form-control empty">
+            <div class="floating-label">Password</div>
+            <span class="material-input"></span>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-material-brown-800 btn-group-justified">Login<div class="ripple-wrapper"></div></button>
+   }
+</div>

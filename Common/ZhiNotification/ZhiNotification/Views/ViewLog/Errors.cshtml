@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Errors";
+}
+@using ZhiNotificationCommon;
+@model ZhiNotification.Models.ErrorModel 
+
+<div class="col-md-12">
+    <table id="error-table" class="table table-bordered table-hover margin-top-16">
+        <thead class="well-material-brown-500">
+            <tr>
+                <th width="20%" class="text-center">Occurrence Time</th>
+                <th width="60%" class="text-center">Error Text</th>
+                <th width="20%" class="text-center">StackTrace</th>
+
+                @*<th>Occurrence Time</th>
+                <th>Error Text</th>00
+                <th>StackTrace</th>*@
+
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Errors != null)
+            {
+                foreach (var item in Model.Errors)
+                {
+                    <tr>
+                        <td class="changes-noty-category">
+                            @item.OccurrenceTime
+                        </td>
+                        <td class="changes-description">
+                            @item.ErrorText
+                        </td>
+                        <td class="text-center changes-related-users">
+                            <button class="btn btn-material-brown-500 input-sm font-size-12"
+                                    notification-error-id="@item.ID">
+                                Stack Trace
+                            </button>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    var errorModel = @Html.Raw(Json.Encode(Model.Errors));
+</script>

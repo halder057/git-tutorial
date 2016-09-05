@@ -1,0 +1,10 @@
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\bin\Debug\EmailSendingTest.exe.config
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\bin\Debug\EmailSendingTest.exe
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\bin\Debug\EmailSendingTest.pdb
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\bin\Debug\EASendMail20.dll
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\obj\Debug\EmailSendingTest.csprojResolveAssemblyReference.cache
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\obj\Debug\EmailSendingTest.Form1.resources
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\obj\Debug\EmailSendingTest.Properties.Resources.resources
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\obj\Debug\EmailSendingTest.csproj.GenerateResource.Cache
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\obj\Debug\EmailSendingTest.exe
+D:\Robin\Sample Projects\EmailSendingTest\EmailSendingTest\obj\Debug\EmailSendingTest.pdb

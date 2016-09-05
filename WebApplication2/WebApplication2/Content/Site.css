@@ -1,0 +1,196 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.regular-page .page-header {
+  margin-top: 0;
+}
+.regular-page .page-header a:link,
+.regular-page .page-header a:visited {
+  color: #206397;
+}
+.regular-page .page-header a:hover {
+  text-decoration: none;
+}
+.regular-page .page-header .reportlabel .btn-default {
+  color: #333;
+}
+
+.jumbotron.vertical-center {
+  margin-bottom: 0;
+  /* Remove the default bottom margin of .jumbotron */
+}
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for vh unit */
+  min-height: 100vh;
+  /* You might also want to use
+                        'height' property instead.
+                        
+                        Note that for percentage values of
+                        'height' or 'min-height' properties,
+                        the 'height' of the parent element
+                        should be specified explicitly.
+  
+                        In this case the parent of '.vertical-center'
+                        is the <body> element */
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* Align the bootstrap's container vertically */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+  width: 100%;
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.login-page {
+  background-color: #f0f0f1;
+}
+.login-page .body-content {
+  background-color: #f0f0f1;
+}
+.login-page .page-header {
+  background-color: white;
+  padding: 5px 0 0 0;
+  margin-bottom: 5px;
+}
+.login-page .page-header h1,
+.login-page .page-header h2 {
+  margin: 0;
+  font-size: 26px;
+  font-size: 1.625em;
+  padding: 5px 0px 5px 10px;
+  padding: 0.5rem 0 0.5rem 1rem;
+  background-color: #818182;
+}
+.login-page .page-header h1 a:link,
+.login-page .page-header h2 a:link,
+.login-page .page-header h1 a:visited,
+.login-page .page-header h2 a:visited,
+.login-page .page-header h1 small,
+.login-page .page-header h2 small {
+  color: white;
+}
+.login-page .page-header h2 {
+  font-size: 22px;
+  font-size: 1.375em;
+}
+.login-page .page-header .error-message {
+  background-color: #f65333;
+}
+.login-page .login-header {
+  padding-bottom: 5px;
+}
+.login-page .error-message {
+  background-color: #f65333;
+}
+body.login-page {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.login-page-container {
+  min-height: 293px;
+  min-height: 29.3rem;
+  width: 328px;
+  width: 32.8rem;
+  background-color: white;
+  /*position:absolute;
+    top:50%;*/
+  /*margin-top:50%;
+    margin-left:50%;
+    .margin-bottom(-@login-container-height-half);
+    .margin-right(-@login-container-width-half);*/
+}
+.login-page-container .remember-me-box {
+  max-width: 293px;
+  max-width: 29.3rem;
+}
+.login-form-container {
+  padding: 2px 15px 15px 18px;
+  padding: 0.2rem 1.5rem 1.5rem 1.8rem;
+}
+.login-form-container label.control-label {
+  font-size: 16px;
+  font-size: 1em;
+  color: #818182;
+}
+.login-form-container .validation-summary-errors {
+  background-color: red;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.login-form-container .validation-summary-errors ul {
+  margin: 0;
+  padding: 0;
+}
+.login-form-container .validation-summary-errors li {
+  list-style: none;
+  text-align: center;
+  font-family: Tahoma, Open sans, Helvetica, Arial, sans-serif !important;
+  font-size: 14px;
+  font-size: 0.875em;
+}
+/*# sourceMappingURL=login-page.css.map */

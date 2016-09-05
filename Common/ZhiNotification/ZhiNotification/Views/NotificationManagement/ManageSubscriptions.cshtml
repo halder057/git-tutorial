@@ -1,0 +1,84 @@
+﻿@model ZhiNotification.Models.PageViewModel
+@{
+    ViewBag.Title = "Notification Subscription";
+    var prefKeyApp = (int)ZhiNotificationCommon.Utilities.PreferenceType.Application;
+    var defaultAppId = -1;
+    var appPreference = Model.Preferences.ContainsKey(prefKeyApp) ? Model.Preferences[prefKeyApp] : defaultAppId;
+
+    bool isAdminOrSuperUser = User.Identity.IsAuthenticated && (Roles.IsUserInRole(ZhiNotification.MembershipInfrastructure.RoleNames.SuperAdmin) || Roles.IsUserInRole(ZhiNotification.MembershipInfrastructure.RoleNames.Admin));
+    string panelClass = isAdminOrSuperUser ? "col-md-8" : "col-md-12";
+}
+<input type="hidden" name="subscription-save-url" value="@Url.Action("SaveSubscriptions", "NotificationManagement")" />
+<input type="hidden" name="subscriptions" value="@Url.Action("GetSubscriptions", "NotificationManagement")" />
+<input type="hidden" name="categories" value="@Url.Action("GetCategoriesWithColumns", "NotificationManagement")" />
+<input type="hidden" name="app-preference" value="@appPreference" />
+<div class="regular-page font-size-13" id="notification-subscription-page">
+    <div class="action-panel form-group-material-brown-500">
+        <div class="container">
+            <div class="col-md-6">
+                <label class="col-md-4 pad-top-16">Select Application</label>
+                <div class="col-md-8 pad-top-8">
+                    <select class="select form-control" id="applicationSelector">
+                        <option value="-1"></option>
+                        @foreach (var item in Model.Applications)
+                    {
+                            <option value="@item.AppID">@item.AppName</option>
+                    }
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-right">
+                    <button type="button" id="save-button" class="btn btn-material-brown-800 font-size-13" onclick="$.notificationCategorySubscription.validateSubscription()">Save</button>
+                    <button type="button" id="clear-button" class="btn btn-material-brown-800 font-size-13" onclick="$.notificationCategorySubscription.reloadContents()">Refresh</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        @if (isAdminOrSuperUser)
+        {
+            <div class="col-md-4">
+                <div class="panel panel-material-brown-800">
+                    <div class="panel-heading">
+                        <big>Select Applicable User</big>
+                    </div>
+                    <div class="panel-body noty-subscription-panel-body">
+                        <div class="row" style="max-height: 330px;">
+                            <div id="userSelectionTreeView"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="@panelClass" id="subscriptions-container">
+            @Html.Partial("Subscriptions", new ZhiNotification.Models.SubscriptionViewModel())
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div id="subscription-confirmation-dialog" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Warning!</h4>
+            </div>
+            <div class="modal-body">
+                <p>You have not selected any <span id="mistaken-subscription-field"></span>. You will NOT get any notification.</p>
+                <p>Do you want to unsubscribe from notifications?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-default" id="unsubscribe-button" onclick="$.notificationCategorySubscription.unsubscribe()">Unsubscribe</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+    var userData = @Html.Raw(Json.Encode(Model.SubscriptionClients));
+</script>

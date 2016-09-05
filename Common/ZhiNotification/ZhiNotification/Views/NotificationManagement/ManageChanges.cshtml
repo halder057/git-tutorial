@@ -1,0 +1,73 @@
+﻿@model ZhiNotification.Models.PageViewModel
+@{
+    ViewBag.Title = "Manage Changes";
+    var prefKeyApp = (int)ZhiNotificationCommon.Utilities.PreferenceType.Application;
+    var defaultAppId = -1;
+    var appPreference = Model.Preferences.ContainsKey(prefKeyApp) ? Model.Preferences[prefKeyApp] : defaultAppId;
+}
+<input type="hidden" name="get-changes-url" value="@Url.Action("GetChanges", "NotificationManagement")" />
+<input type="hidden" name="changes-approval-url" value="@Url.Action("ApproveChanges", "NotificationManagement")" />
+<input type="hidden" name="discard-changes-url" value="@Url.Action("DiscardChanges", "NotificationManagement")" />
+<input type="hidden" name="subscribed-users-url" value="@Url.Action("GetSubscribedUsers", "NotificationManagement")" />
+<input type="hidden" name="app-preference" value="@appPreference" />
+<div class="regular-page font-size-13" id="changes-management-page">
+    <div class="action-panel row form-group-material-brown-500">
+        <div class="col-md-4">
+            <label class="col-md-5 pad-top-16">Select Application</label>
+            <div class="col-md-7 pad-top-8">
+                <select class="select form-control" id="applicationSelector">
+                    <option value="-1"></option>
+                    @foreach (var item in Model.Applications)
+                    {
+                        <option value="@item.AppID">@item.AppName</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label class="col-md-5 pad-top-16">Select Category</label>
+            <div class="col-md-7 pad-top-8">
+                <select class="select form-control" id="notificationCategorySelector"></select>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="pull-right">
+                <button type="button" id="save-button" class="btn btn-material-brown-800 font-size-13">Approve</button>
+                <button type="button" id="discard-button"  class="btn btn-material-brown-800 font-size-13">Discard</button>
+                <button type="button" id="clear-button" class="btn btn-material-brown-800 font-size-13">Refresh</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="panel panel-material-brown-800">
+            <div id="changes-panel-heading" class="panel-heading">
+                <div class="row">
+                    <div class="col-md-4"><h3 class="panel-title">Pending Changes</h3></div>
+                    <div class="col-md-8">
+                        <div class="checkbox checkbox-material-brown-50 text-center pull-right pad-left-48">
+                            <label>
+                                <input type="checkbox" id="show-discarded" />
+                                <span class="checkbox-label color-white">Show discarded changes</span>
+                            </label>
+                        </div>
+                        <div class="checkbox checkbox-material-brown-50 text-center pull-right">
+                            <label>
+                                <input type="checkbox" id="show-approved" />
+                                <span class="checkbox-label color-white">Show approved changes</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body">
+                <div id="changes-table-container" class="row">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="subscribed-users-list-dialog" class="modal fade" tabindex="-1">
+    </div>
+</div>
+

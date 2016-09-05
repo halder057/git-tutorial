@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title - Zitter Notification</title>
+    
+    @Styles.Render("~/Content/CSS")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+    <script type="text/javascript">
+        $(document).ajaxError(function (e, xhr) {
+            if (xhr.status == 401)
+                window.location.reload();
+            else if (xhr.status == 403)
+                alert("You do not have enough permissions to request this resource.");
+        });
+    </script>
+</head>
+<body class="body-content">
+    @if (ViewBag.IsPDFTemplate != null)
+    {
+        <div>
+            @RenderBody()
+        </div>
+    }
+    else
+    {
+        if (User.Identity.IsAuthenticated)
+        {
+            @Html.Partial("_NavBar")
+        }
+        <div class="container content">
+            @RenderBody()
+        </div>
+    }
+    @Html.Partial("_Constants")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

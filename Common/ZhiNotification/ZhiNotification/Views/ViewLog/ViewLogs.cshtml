@@ -1,0 +1,94 @@
+﻿@model ZhiNotification.Models.ViewLogModel
+@{
+    ViewBag.Title = "Manage Logs";
+    
+}
+<input type="hidden" name="get-logged-data-url" value="@Url.Action("GetLogData", "ViewLog")" />
+
+<div class="regular-page font-size-13" id="view-log-page">
+    <div class="action-panel row form-group-material-brown-500">
+        <!-- DropDown Buttons-->
+        @*<div class="col-md-3">
+            <label class="col-md-5 pad-top-16">Select Application</label>
+            <div class="col-md-7 pad-top-8">
+                <select class="select form-control" id="applicationSelector">
+                    <option value="-1"></option>
+                    @foreach (var item in Model.Applications)
+                    {
+                        <option value="@item.AppID">@item.AppName</option>
+                    }
+                </select>
+            </div>
+        </div>*@
+        
+        <div class="col-md-5">
+            <label class="col-md-5 pad-top-16">Select Module Type</label>
+            <div class="col-md-7 pad-top-8">
+                <select class="select form-control" id="moduleSelector">
+                    <option value="-1"></option>
+                    @foreach (var item in Model.Modules)
+                    {
+                        <option value="@item.moduleId">@item.moduleName</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <label class="col-md-5 pad-top-16">Select Event</label>
+            <div class="col-md-7 pad-top-8" id="eventSelectorDiv">
+                <select class="select form-control" id="eventSelector"></select>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="pull-right">
+                <button type="button" id="refresh-button" class="btn btn-material-brown-800 font-size-13">Refresh</button>
+            </div>
+        </div>
+
+        <!-- DropDown Buttons-->
+    </div>
+    <div class="row">
+        <div class="panel panel-material-brown-800">
+            <div id="changes-panel-heading" class="panel-heading">
+                <div class="row">
+                    <div class="col-md-3"><h3 class="panel-title">Error Log</h3></div>
+                    @*<div class="col-md-9">
+                        <div class="checkbox checkbox-material-brown-50 text-center pull-right pad-left-48" id="cb-container">
+                            <label>
+                                <input type="checkbox" id="view-erroe-log" />
+                                <span class="checkbox-label color-white">Errors</span>
+                            </label>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+
+            <div class="panel-body">
+                <div id="log-table-container" class="row">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="stack-trace-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Stack Trace</h4>
+                </div>
+                <div id="stack-trace-holder" class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    var modules = @Html.Raw(Json.Encode(Model.Modules));
+</script>

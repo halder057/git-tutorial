@@ -1,0 +1,3 @@
+2016-02-08 12:16:49,909 [10] ERROR ZhiPattChangeScanner.Utilities.Logger - Error in change scanning. System.DivideByZeroException: Attempted to divide by zero.
+   at ZhiPattChangeScanner.Processor.Process(Logger logger) in d:\Tamjid\Projects\TFS\ZHI\DefColl\Common\ZhiChangeScanners\ZhiPattChangeScanner\ZhiPattChangeScanner\Processor.cs:line 43
+
